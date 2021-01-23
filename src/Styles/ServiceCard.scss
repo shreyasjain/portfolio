@@ -1,0 +1,25 @@
+.service-card-container{
+    height: 11rem;
+    width: 9rem;
+    background: #2f6585;
+    margin: 11px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid #187cc7;
+    img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 80%;
+    }
+
+    p{
+        text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #eefbfb;
+    }
+}
+
+.service-card-container:hover{
+    background: #187cc7;
+}

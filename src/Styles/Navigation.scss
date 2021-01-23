@@ -1,0 +1,44 @@
+@media (min-width: 992px){
+    .navbar-nav {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .nav-link{
+        padding-right: 1.5rem !important;
+    }
+}
+    
+.navbar-brand{
+    color: rgb(238, 251, 251) !important;
+    padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(238, 251, 251) !important;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(238, 251, 251) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png") !important;
+    /* color: white !important; */
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+}
+
+.show{
+    .mr-auto {
+        a{
+    background: #12232e !important;
+}}}
