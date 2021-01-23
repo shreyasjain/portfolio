@@ -6,6 +6,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import ContactSupportIcon from '@material-ui/icons/ContactSupport';
 
 function Contact() {
     return (
@@ -23,11 +24,11 @@ function Contact() {
                         </p>
                     </div>
                     <div className="social-media-links">
-                        <a className="social-media-link social-media-link--facebook" href="#"><span className="social-media-icon"><FacebookIcon/></span></a>
-                        <a className="social-media-link social-media-link--twitter" href="#"><span className="social-media-icon"><TwitterIcon/></span></a>
-                        <a className="social-media-link social-media-link--instagram" href="#"><span className="social-media-icon"><InstagramIcon/></span></a>
-                        <a className="social-media-link social-media-link--linkedin" href="#"><span className="social-media-icon"><LinkedInIcon/></span></a>
-                        <a className="social-media-link social-media-link--youtube" href="#"><span className="social-media-icon"><YouTubeIcon/></span></a>
+                        <a className="social-media-link social-media-link--facebook" href="http://www.facebook.com/jainshreyas333"><span className="social-media-icon"><FacebookIcon/></span></a>
+                        <a className="social-media-link social-media-link--twitter" href="http://www.twitter.com/shreyasjain4all"><span className="social-media-icon"><TwitterIcon/></span></a>
+                        <a className="social-media-link social-media-link--instagram" href="http://www.instagram.com/shreyasjain9"><span className="social-media-icon"><InstagramIcon/></span></a>
+                        <a className="social-media-link social-media-link--linkedin" href="www.linkedin.com/shreyasjain4all"><span className="social-media-icon"><LinkedInIcon/></span></a>
+                        <a className="social-media-link social-media-link--youtube" href="http://www.quora.com/sayyesindia"><span className="social-media-icon"><ContactSupportIcon/></span></a>
                     </div>
                     <div className="contact-description other-contact-details">
                         <h6><strong>Other Contact Details:</strong></h6>

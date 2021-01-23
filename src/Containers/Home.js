@@ -16,16 +16,16 @@ function Home() {
         .catch(err=>console.log(err.message))
     },[])
 
-    // useEffect(() => {
-    //     var elements = document.getElementsByClassName('typewrite');
-    //     for (var i = 0; i < elements.length; i++) {
-    //         var toRotate = elements[i].getAttribute('data-type');
-    //         var period = elements[i].getAttribute('data-period');
-    //         if (toRotate) {
-    //             TxtType(elements[i], JSON.parse(toRotate), period);
-    //         }
-    //     }
-    // }, [])
+    useEffect(() => {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+                TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+    }, [])
 
     const TxtType = (el, toRotate, period) => {
         debugger;
