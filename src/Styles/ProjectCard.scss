@@ -1,0 +1,28 @@
+.project-card-container{
+    height: 40vh;
+    width: 50vh;
+    background-color: #2f6585;
+    border: 3px solid #187cc7;
+    margin: 0.5rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project-card-container:hover{
+    background-color: #187cc7;
+    border-radius: 10px;
+}
+
+.project-card-container-image{
+    height: 30vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-card-container-details{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}

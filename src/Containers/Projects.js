@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from "react-dom"
 import "../Styles/Projects.scss"
 import { Container } from 'react-bootstrap'
+import ProjectCard from '../Components/ProjectCard'
 
 const PostsData = [
     {
@@ -66,17 +67,15 @@ const PostsData = [
           
         <header className="app-header" id="projects"></header>
         <h1 className="page-main-heading">#PROJECTS</h1>
-        <Container>
-        {/* <div> */}
-        <div className="app-card-list" id="app-card-list">
-          {
-            Object
-            .keys(this.state.posts)
-            .map(key => <Card key={key} index={key} details={this.state.posts[key]}/>)
-          }
+        {/* <Container> */}
+        <div className="app-card-list projects-list" id="app-card-list">
+          <ProjectCard/>
+          <ProjectCard/>
+          <ProjectCard/>
+          <ProjectCard/>
+          <ProjectCard/>
       </div>
-      {/* </div> */}
-      </Container>
+      {/* </Container> */}
       </div>
     }
   }
