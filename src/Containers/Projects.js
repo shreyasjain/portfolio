@@ -69,11 +69,11 @@ const PostsData = [
         <h1 className="page-main-heading">#PROJECTS</h1>
         {/* <Container> */}
         <div className="app-card-list projects-list" id="app-card-list">
-          <ProjectCard/>
-          <ProjectCard/>
-          <ProjectCard/>
-          <ProjectCard/>
-          <ProjectCard/>
+          <ProjectCard title="Table-Tennis WebApp" link=""/>
+          <ProjectCard title="Live Weather API" link=""/>
+          <ProjectCard title="BlackJack Game" link=""/>
+          <ProjectCard title="COVID-19 Tracker" link=""/>
+          <ProjectCard title="Notes CLI App" link=""/>
       </div>
       {/* </Container> */}
       </div>

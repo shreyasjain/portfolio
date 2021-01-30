@@ -9,12 +9,12 @@ function ProjectCard(props) {
 
                 </div>
                 <div className="project-card-container-details">
-                    <div>
-                        <span>Project Name</span>
+                    <div class="project-card-container-details-name">
+                        <span>{props.title}</span>
                     </div>
-                    <div>
-                        <button>Github</button>
-                    </div>
+                    {/* <div>
+                        <button className="pc-github-btn">G</button>
+                    </div> */}
                 </div>
             </div>
         </div>

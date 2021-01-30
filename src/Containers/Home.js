@@ -78,6 +78,10 @@ function Home() {
     //         .catch(err => console.log(err))
     // }
 
+    const handleResume = ()=>{
+        window.open("https://drive.google.com/file/d/1GkmGtjRv_0CGG0zQKXrO-A75MFwGS6Cl/view?usp=sharing");
+    }
+
     return (
         <div id="home">
             <NavigationBar />
@@ -104,7 +108,7 @@ function Home() {
                             </h1>
                         </div>
                         <div className="resume-button">
-                            <button>Get Resume</button>
+                            <button onClick={handleResume}>Get Resume</button>
                         </div>
                     </div>
                 </div>
