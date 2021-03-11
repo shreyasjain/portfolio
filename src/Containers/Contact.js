@@ -27,7 +27,7 @@ function Contact() {
                         <a className="social-media-link social-media-link--facebook" href="http://www.facebook.com/jainshreyas333"><span className="social-media-icon"><FacebookIcon/></span></a>
                         <a className="social-media-link social-media-link--twitter" href="http://www.twitter.com/shreyasjain4all"><span className="social-media-icon"><TwitterIcon/></span></a>
                         <a className="social-media-link social-media-link--instagram" href="http://www.instagram.com/shreyasjain9"><span className="social-media-icon"><InstagramIcon/></span></a>
-                        <a className="social-media-link social-media-link--linkedin" href="www.linkedin.com/shreyasjain4all"><span className="social-media-icon"><LinkedInIcon/></span></a>
+                        <a className="social-media-link social-media-link--linkedin" href="http://www.linkedin.com/shreyasjain4all"><span className="social-media-icon"><LinkedInIcon/></span></a>
                         <a className="social-media-link social-media-link--youtube" href="http://www.quora.com/sayyesindia"><span className="social-media-icon"><ContactSupportIcon/></span></a>
                     </div>
                     <div className="contact-description other-contact-details">
