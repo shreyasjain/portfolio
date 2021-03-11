@@ -79,7 +79,7 @@ function Home() {
     // }
 
     const handleResume = ()=>{
-        window.open("https://drive.google.com/file/d/1GkmGtjRv_0CGG0zQKXrO-A75MFwGS6Cl/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1mD7jbhml_oP5EMO-5MnmXYSeojUPtIHD/view?usp=sharing");
     }
 
     return (
