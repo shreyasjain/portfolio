@@ -77,6 +77,9 @@ body {
     border: 3px solid #eefbfb;
     font-style: initial;
   }
+  button:focus{
+    outline: none;
+  }
 }
 
 .home-dp{

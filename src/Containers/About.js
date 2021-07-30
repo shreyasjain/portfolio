@@ -11,7 +11,7 @@ function About() {
                 <Row>
                     <Col sm={8} className="about-col-1 about-text">
                         <p>Hi</p>
-                        <p>I am Shreyas Jain. I am a MERN-stack web-developer proficient in wide range of latest technologies including React.js and Redux, etc. I have 2+ years of experience as a frontend developer and decent experience as a backend developer too. I am a keen problem solver and always eager to do challenging tasks.</p>
+                        <p>I am Shreyas Jain. I am a MERN-stack web-developer proficient in wide range of latest technologies including React.js and Redux, etc. I have 3+ years of experience as a frontend developer and decent experience as a backend developer too. I am a keen problem solver and always eager to do challenging tasks.</p>
                         <p>Apart from technical stuffs, I love to travel, trek, and do tasks that require pushing limits. I like working with happy teams.</p>
                         <p>If you still find my tech-stack small, I am flexible to switch between new technologies. If interested, contact me directly and thank me later :p Links provided below.</p>
                         <p>Thanks</p>

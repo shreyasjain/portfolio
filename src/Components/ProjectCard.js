@@ -6,7 +6,8 @@ function ProjectCard(props) {
 
     const handleClick=(e)=>{
         e.preventDefault()
-        window.location.href=props.github
+        // window.location.href=props.github
+        window.open(props.github)
     }
 
     return (
